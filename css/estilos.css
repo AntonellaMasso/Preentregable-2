@@ -5,7 +5,6 @@
     list-style-type: none;
 }
 body{
-    font-family: 'Geologica', sans-serif;
     background-image: url(../assets/fondo.png);
     background-size: cover;
 }
@@ -297,7 +296,7 @@ body {
 }
 
 .eventospag::before {
-    content: '';
+
     position: absolute;
     top: 0;
     left: 0;
@@ -688,9 +687,6 @@ body {
 
 /*MEDIA QUERYS*/
 
-/* Estilos para tabletas */
-
-/* Estilos para dispositivos móviles */
 
 @media only screen and (max-width: 480px) {
     /*homepage*/
