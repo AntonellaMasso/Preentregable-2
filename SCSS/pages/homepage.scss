@@ -1,0 +1,111 @@
+.carousel-content{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.proxevents{
+    margin-top: 800px;
+    text-align: center;
+    position: relative;
+    &-1{
+        background-color: $color1;
+        padding: 35px 25px;
+        margin: 0 10px;
+        border-radius: 10px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        img{
+            width: 200px;
+        }
+        h2{
+            font-size: 25px;
+            color: $color2;
+        }
+        a{
+            color: $color2;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        }
+    }
+    
+.eventsgroup{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+
+.events-txt{
+    font-size: 60px;
+    font-weight: bold;
+    color: $color2;
+    
+}
+
+.bn{
+    padding: 11px 25px;
+    background-color: $hovercolor;
+    border-radius: 5px;
+    border: 0;
+    &:hover{
+        background-color: $color3;
+    }
+}
+
+.aboutus{
+    display: flex;
+    &-1{
+        background-image: url(../assets/aboutus2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    &-2{
+        width: 50%;
+        padding: 150px 250px 150px 100px;
+        margin-bottom: 50px;
+        background-color: $color4;
+    }
+    }
+    
+
+h2{
+    font-size: 90px;
+    color: $color2;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+p{
+    font-size: 16px;
+    color: $color2;
+    margin: 25px 0;
+}
+.a-2{
+
+   display: inline-block;
+   padding: 11px 25px;
+   background-color: $color1;
+   color: $color2;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 20px;
+   margin: 25px 0;
+   border: 0;
+   text-decoration: none;
+   &:hover{
+    background-color: $hovercolor;
+   }
+}
+.about-txt{
+    font-size: 70px;
+    font-weight: bolder;
+    color: $color1;
+}

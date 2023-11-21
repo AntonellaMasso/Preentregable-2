@@ -1,0 +1,17 @@
+// Reset
+@import './Reset/reset.scss';
+@import './Reset/vars.scss';
+@import './Reset/mixin.scss';
+
+// Pages
+@import './pages/header.scss';
+@import './pages/homepage.scss';
+@import './pages/eventospage.scss';
+@import './pages/contactpage.scss';
+@import './pages/helppage.scss';
+@import './pages/terminosycondiciones.scss';
+@import './pages/footer.scss';
+
+// Media Queries
+@import './Reset/mq.scss';
+

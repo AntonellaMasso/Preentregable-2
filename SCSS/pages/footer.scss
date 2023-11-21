@@ -1,0 +1,41 @@
+.footer{
+    background-color: $color4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    h2{
+        font-size: 40px;
+    }
+    &-txt{
+        text-align: center;
+        padding: 10px;
+        background-color: $color4;
+    }
+}
+.tc{
+    color: $color2;
+    text-decoration: none;
+    &:hover{
+        color: $color1;
+    }
+}
+
+.campo{
+    margin-bottom: 5px;
+    padding: 20px 15px;
+    width: 500px;
+    background-color: $color4;
+    border: 1px solid $color4;
+    outline: none;
+    border-radius: 10px;
+    color: $color2;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

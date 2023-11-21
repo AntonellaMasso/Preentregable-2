@@ -1,0 +1,66 @@
+body {
+    background-color: $hovercolor;
+    margin: 0;
+    overflow-y: scroll; 
+    position: relative;
+}
+
+
+.contactpag {
+    @include paginas;
+    background-image: url(../assets/eventos.jpg);
+  
+    &::before{
+        @include before;
+    }
+    h2{
+        @include textoh2;
+    }
+    h1{
+        color: $color2;
+    }
+}
+
+.contacto-container{
+    margin-top: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+.contact-seccion{
+    max-width: 800px;
+    margin: 0 auto;
+    color: $color1;
+    h2{
+        font-size: 40px;
+        color: $color1
+    }
+}
+
+.forms2{
+    input, textarea{
+        @include forms;
+    }
+}
+
+.forms{
+    h3{
+        color: $color2;
+        font-size: 16px;
+    }
+    input, textarea{
+        @include forms;
+    }
+    
+}
+
+.enviarmsj {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: $color1;
+    color: $color2;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}

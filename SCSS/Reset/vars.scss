@@ -1,0 +1,19 @@
+//Colores//
+
+$color1: #f35d26;
+$color2: #ffffff;
+$hovercolor: #3C0E4C;
+$color3: #F6CA18;
+$color4: black; 
+
+//Mapa//
+
+$sizes: 40px, 50px, 80px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+}
