@@ -8,12 +8,13 @@ $color4: black;
 
 //Mapa//
 
-$sizes: 40px, 50px, 80px;
-
-@each $size in $sizes {
-  .icon-#{$size} {
-    font-size: $size;
-    height: $size;
-    width: $size;
-  }
+$text:(
+    derechos: #9c1313,
+    contenido: #af080800,
+    privacidad: #a30c0ccc,
+);
+@each $derechos, $color in $text{
+.text__#{$derechos}{
+    background-color: #9c1313;
+}
 }
